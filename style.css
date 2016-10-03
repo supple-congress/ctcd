@@ -63,21 +63,10 @@ body {
   font-size: 16px;
   line-height: 1em;
 }
-
-/*h1 {
-  /*font-family: 'VT323', monospace;*/
-  /*font-family: 'Lora', serif;
-  font-size: 42px;
-  margin-bottom: 10px;
-}*/
-
 h1 {
-  /*font-family: 'VT323', monospace;*/
-  /*font-family: 'Lora', serif;*/
-  /*font-style: italic;*/
   font-size: 26px;
   margin-bottom: 12px;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 p {
@@ -87,7 +76,7 @@ p {
 .main {
   width: 100%;
   max-width: 1500px;
-  margin: 60px auto 100px auto;
+  margin: 60px auto 20px auto;
 }
 
 .cover {
@@ -105,8 +94,20 @@ h1,h2,p {
 }
 
 
-@@media screen and (max-width: 480px) {
-  h1,h2,p {
-    padding: 0 17px;
+@media only screen and (max-width: 480px) {
+	h1 {
+		margin-bottom: 30px;
+	}
+	h1,p {
+    padding: 0 20px;
   }
+	body {
+		font-size: 13px;
+	}
+	.main {
+		margin: 30px auto 20px auto;
+	}
+	.cover {
+		padding: 0 20px;
+	}
 }
