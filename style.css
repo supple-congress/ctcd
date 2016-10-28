@@ -84,6 +84,11 @@ p {
   margin-bottom: 80px;
 }
 
+a {
+	text-decoration: none;
+	color: #03A9F4;
+}
+
 .cover img {
   width: 100%;
   height: auto;
